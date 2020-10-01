@@ -1,0 +1,51 @@
+body{
+    background-color: indianred;
+    color: white;
+}
+
+header{
+    font-size: 0;
+}
+
+h1 ,nav{
+    display: inline-block;
+}
+
+h1{
+    font-size: 40px;
+    /* background-color: green; */
+    width: 80%;
+}
+
+nav{
+    text-align: center;
+    font-size: 20px;
+    /* background-color: grey; */
+    width: 19%;
+}
+
+a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.div-one{
+    display: inline-block;
+    width: 50%;
+}
+
+.div-two{
+    margin-left: 50px;
+    display: inline-block;
+    width: 40%; 
+    vertical-align: top;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    border: 1px black solid;
+}
