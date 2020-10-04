@@ -44,37 +44,72 @@ table {
 
 /* Custom Styles */
 
+
 header{
-    margin: 20px ;
-    padding: 10px;
-    overflow: auto;
-    background-color: rgb(207, 196, 196);
+    background-color: thistle;
+    height: 72px;
+    line-height: 72px;
+    padding: 0 20px;
 }
 
-h1{
+.heading{
+    font-size: 36px;
     float: left;
-    font-size: 40px;
 }
-nav{
-    padding-top: 12px;
+
+.nav{
     float: right;
 }
 
 a{
-    margin: 0 3px;
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-.div{
-    margin: 50px 100px;
+/* Clearfix class */
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
 }
-p{
-    margin: 10px 0;
+
+.clearfix::after{
+    clear: both;
+}
+
+img{
+    width: 300px;
+}
+
+.div-img{
+    float: left;
+    margin: 50px 20px;
+}
+ 
+ .div-img p{
+    width: 300px;
+    margin: 50px 0;
+}
+
+.container{
+    margin:0 100px;
+    
+}
+
+.bg-wrapper{
+    background: lightsalmon;
 }
 
 footer{
-    text-align: center;
-    background-color: rgb(207, 196, 196);
-
+    background-color: thistle;
+    padding: 42.5px 0;
 }
 
+footer p{
+    float: left;
+}
 
+footer a{
+    float: right;
+}
