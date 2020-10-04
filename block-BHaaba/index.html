@@ -1,0 +1,57 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+
+
+<html>
+    <head>
+        <title>Alignment using float</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="clearfix">
+                <h1 class="heading">Brand Name</h1>
+                <nav class="nav">
+                    <a href="">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="bg-wrapper">
+                <div class="container clearfix">
+                    <div class="div-img">
+                        <img src="https://images.unsplash.com/photo-1601753657684-cefd5aa6f284?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia nesciunt error delectus, sint porro culpa quae debitis quaerat amet vero. Eos, eum. Eius consequuntur quasi cupiditate aut saepe. Ipsa, ipsum.</p>
+                    </div>
+                    <div class="div-img">
+                        <img src="https://images.unsplash.com/photo-1601753657684-cefd5aa6f284?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tempore eveniet, molestias earum fugit nulla cupiditate, quaerat nihil quis rem cum autem facilis possimus explicabo. Dolor fuga sint cupiditate molestiae.</p>
+                    </div>
+                    <div class="div-img">
+                        <img src="https://images.unsplash.com/photo-1601753657684-cefd5aa6f284?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque dolore explicabo omnis id ducimus. Fuga id nisi aliquid fugiat exercitationem reiciendis eum minus commodi nulla, earum, quos laborum nesciunt!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="clearfix">
+            <div class="container">
+                <p>&copy;Ayush Kamboj</p>
+                <nav>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">Github</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
